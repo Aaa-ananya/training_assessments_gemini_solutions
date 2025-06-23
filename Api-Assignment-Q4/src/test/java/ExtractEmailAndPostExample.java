@@ -20,7 +20,7 @@ public class ExtractEmailAndPostExample {
         System.out.println("Extracted Email: " + email);
 
         // ✅ Step 2: Use the extracted email in POST request
-        String payload = "{ \"name\": \"Shtakshi\", \"email\": \"" + email + "\" }";
+        String payload = "{ \"name\": \"Ananya\", \"email\": \"" + email + "\" }";
 
         given()
                 .baseUri("https://reqres.in")
